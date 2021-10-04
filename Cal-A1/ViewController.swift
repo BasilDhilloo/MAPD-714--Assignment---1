@@ -7,6 +7,10 @@
 
 
 // GUI Calculator - Assignment 1
+// Basil Farooq
+// 301201128
+// Due Date: 26th September
+// GUI of Calculator
 import UIKit
 
 class ViewController: UIViewController {
