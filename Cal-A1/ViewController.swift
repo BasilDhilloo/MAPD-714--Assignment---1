@@ -2,9 +2,11 @@
 //  ViewController.swift
 //  Cal-A1
 //
-//  Created by Owner on 2021-10-03.
+//  Created by Basil Farooq on 2021-10-03.
 //
 
+
+// GUI Calculator - Assignment 1
 import UIKit
 
 class ViewController: UIViewController {
