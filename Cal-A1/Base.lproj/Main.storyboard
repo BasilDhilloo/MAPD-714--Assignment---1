@@ -19,13 +19,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p37-eT-zg6">
                                 <rect key="frame" x="0.0" y="44" width="414" height="204.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2u-Ip-rfg">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2u-Ip-rfg">
                                         <rect key="frame" x="0.0" y="102.5" width="399" height="102"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="50"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3-1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ut6-Ua-awB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ut6-Ua-awB">
                                         <rect key="frame" x="0.0" y="0.0" width="399" height="102.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="50"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -63,6 +63,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="allClearTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qhM-0J-IT8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Kx-I3-RD8">
                                                 <rect key="frame" x="103.5" y="0.0" width="103.5" height="122.5"/>
@@ -77,6 +80,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="backTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ddK-bQ-G29"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oas-TO-wAt">
                                                 <rect key="frame" x="207" y="0.0" width="103.5" height="122.5"/>
@@ -91,6 +97,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="plusMinusChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t0S-ZU-5kw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZW-uR-922">
                                                 <rect key="frame" x="310.5" y="0.0" width="103.5" height="122.5"/>
@@ -105,6 +114,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="divideFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iqJ-Yw-dRH"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -123,6 +135,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="sevenFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="61n-jz-kzL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqh-is-3Xb">
                                                 <rect key="frame" x="103.5" y="0.0" width="103.5" height="123"/>
@@ -136,6 +151,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="eightFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YQG-9Y-avV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qB9-Uo-P8X">
                                                 <rect key="frame" x="207" y="0.0" width="103.5" height="123"/>
@@ -149,6 +167,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="nineFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ozk-bs-TQI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYM-Y1-kIh">
                                                 <rect key="frame" x="310.5" y="0.0" width="103.5" height="123"/>
@@ -156,13 +177,16 @@
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="contentEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="X" cornerStyle="capsule">
+                                                <buttonConfiguration key="configuration" style="plain" title="x" cornerStyle="capsule">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.76274144649999998" green="0.69182801250000003" blue="0.56994670629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="strokeColor" red="0.76274144649999998" green="0.69182801250000003" blue="0.56994670629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="multiplyFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dAE-Xf-vi4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -181,6 +205,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="fourFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gzn-69-xba"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dw-w3-1uf">
                                                 <rect key="frame" x="103.5" y="0.0" width="103.5" height="122.5"/>
@@ -194,6 +221,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="fiveFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Hh-yD-W0D"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjh-m4-46O">
                                                 <rect key="frame" x="207" y="0.0" width="103.5" height="122.5"/>
@@ -207,6 +237,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="sixFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c4p-34-FoH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YxS-JN-dcL">
                                                 <rect key="frame" x="310.5" y="0.0" width="103.5" height="122.5"/>
@@ -221,6 +254,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="subtractFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aWL-Hl-1t8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -239,6 +275,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="oneFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I6a-Xd-eN2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UoE-9S-vFg">
                                                 <rect key="frame" x="103.5" y="0.0" width="103.5" height="123"/>
@@ -252,6 +291,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="twoFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NzK-je-1ZT"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHQ-VM-Or8">
                                                 <rect key="frame" x="207" y="0.0" width="103.5" height="123"/>
@@ -265,6 +307,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="threeFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7py-rA-bvk"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfr-HA-hda">
                                                 <rect key="frame" x="310.5" y="0.0" width="103.5" height="123"/>
@@ -279,6 +324,9 @@
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="addFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSm-N0-2Lq"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -300,6 +348,9 @@
                                                             </backgroundConfiguration>
                                                             <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="zeroFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MRi-ed-IZQ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFJ-Yd-9Jc">
                                                         <rect key="frame" x="103.5" y="0.0" width="103.5" height="122.5"/>
@@ -313,6 +364,9 @@
                                                             </backgroundConfiguration>
                                                             <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="decimalFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xdZ-ae-nqN"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -331,6 +385,9 @@
                                                             </backgroundConfiguration>
                                                             <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="modulusFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iGi-ms-fJh"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivq-g7-nqG">
                                                         <rect key="frame" x="103.5" y="0.0" width="103.5" height="122.5"/>
@@ -345,6 +402,9 @@
                                                             </backgroundConfiguration>
                                                             <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="equalFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ME-om-uaP"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -368,10 +428,14 @@
                         </constraints>
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="33" height="896"/>
+                    <connections>
+                        <outlet property="CalculatorResult" destination="D2u-Ip-rfg" id="wfH-uJ-f3K"/>
+                        <outlet property="CalculatorWorkings" destination="D2u-Ip-rfg" id="w7A-ur-DOd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-180" y="77"/>
+            <point key="canvasLocation" x="-993" y="-204"/>
         </scene>
     </scenes>
     <resources>
